@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Slab:wght@600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#displayFormCon,
+#displayResultCon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#form,
+#result {
+  margin: auto;
+}
+
+@media (min-width: 220px) and (max-width: 300px) {
+  #displayFormCon {
+    width: 86vw;
+    margin: auto;
+  }
+  #apiKey,
+  #cityName,
+  #celcius,
+  #fahrenheit {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 353px) {
+  #displayFormCon {
+    width: 86vw;
+    margin: auto;
+  }
+  #apiKey,
+  #cityName,
+  #celcius,
+  #fahrenheit {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 354px) and (max-width: 449px) {
+  #displayFormCon {
+    width: 90vw;
+    margin: auto;
+  }
+  #apiKey,
+  #cityName,
+  #celcius,
+  #fahrenheit {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+  #displayFormCon {
+    width: 90vw;
+    margin: auto;
+  }
+  #apiKey,
+  #cityName,
+  #celcius,
+  #fahrenheit {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=form.css.map */
